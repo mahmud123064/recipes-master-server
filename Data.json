@@ -1,90 +1,172 @@
 [
     {
-        "chefs": [
+        "id": 1,
+        "chef_name": "Gordon Ramsay",
+        "experience": "20+ years",
+        "number": 12,
+        "description": "Gordon Ramsay is a British chef, restaurateur, writer, and television personality. He has been awarded a total of 16 Michelin Stars, and is known for his fiery personality and no-nonsense approach to cooking. Ramsay began his culinary career at the age of 19, training with some of the world's top chefs in London and Paris. He later opened his own restaurants, including the three-Michelin-starred Restaurant Gordon Ramsay in London. .",
+        "chef_photo": "https://images.pexels.com/photos/3814446/pexels-photo-3814446.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "like": 1500,
+        "treating": "Gordon Ramsay's signature dish is Beef Wellington, which is a filet of beef wrapped in puff pastry and served with mushroom duxelles and a red wine reduction. He is also known for his roasted scallops with pea puree and bacon vinaigrette.",
+        "recipe_details": [
             {
-                "id": 1,
-                "chef_picture": "https://example.com/chef1.jpg",
-                "chef_name": "Alice Smith",
-                "year_of_experience": 10,
-                "num_recipes": 20,
-                "likes": 500,
-                "recipes": [
-                    {
-                        "recipe_picture": "https://example.com/recipe1.jpg",
-                        "recipe_details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor nibh velit, at commodo dolor molestie vel. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec vitae urna bibendum, dapibus augue eu, posuere quam. Praesent laoreet, velit eu viverra pretium, lorem urna pulvinar arcu, ut fringilla massa leo quis eros."
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "chef_picture": "https://example.com/chef2.jpg",
-                "chef_name": "Bob Johnson",
-                "year_of_experience": 5,
-                "num_recipes": 10,
-                "likes": 200,
-                "recipes": [
-                    {
-                        "recipe_picture": "https://example.com/recipe3.jpg",
-                        "recipe_details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor nibh velit, at commodo dolor molestie vel. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec vitae urna bibendum, dapibus augue eu, posuere quam. Praesent laoreet, velit eu viverra pretium, lorem urna pulvinar arcu, ut fringilla massa leo quis eros."
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "chef_picture": "https://example.com/chef3.jpg",
-                "chef_name": "Cathy Lee",
-                "year_of_experience": 7,
-                "num_recipes": 15,
-                "likes": 300,
-                "recipes": [
-                    {
-                        "recipe_picture": "https://example.com/recipe5.jpg",
-                        "recipe_details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor nibh"
-                    }
-                ]
-            },
-            {
-                "id": 4,
-                "chef_picture": "https://example.com/chef3.jpg",
-                "chef_name": "James bond",
-                "year_of_experience": 7,
-                "num_recipes": 15,
-                "likes": 300,
-                "recipes": [
-                    {
-                        "recipe_picture": "https://example.com/recipe5.jpg",
-                        "recipe_details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor nibh"
-                    }
-                ]
-            },
-            {
-                "id": 5,
-                "chef_picture": "https://example.com/chef3.jpg",
-                "chef_name": "AB devilius",
-                "year_of_experience": 7,
-                "num_recipes": 15,
-                "likes": 300,
-                "recipes": [
-                    {
-                        "recipe_picture": "https://example.com/recipe5.jpg",
-                        "recipe_details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor nibh"
-                    }
-                ]
-            },
-            {
-                "id": 6,
-                "chef_picture": "https://example.com/chef3.jpg",
-                "chef_name": "Maicale",
-                "year_of_experience": 7,
-                "num_recipes": 15,
-                "likes": 300,
-                "recipes": [
-                    {
-                        "recipe_picture": "https://example.com/recipe5.jpg",
-                        "recipe_details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor nibh"
-                    }
-                ]
+                "recipe_name": "Beef Wellington",
+                "ingredients": [
+                    "Filet of beef",
+                    "Puff pastry",
+                    "Mushroom duxelles",
+                    "Red wine"
+                ],
+                "instructions": [
+                    "Season and sear the beef",
+                    "Wrap in puff pastry with mushroom duxelles",
+                    "Bake until golden brown"
+                ],
+                "recipe_photo": "https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?auto=compress&cs=tinysrgb&w=600"
             }
+            
+        ]
+    },
+    {
+        "id": 2,
+        "chef_name": "Thomas Alva",
+        "experience": "25+ years",
+        "number":"10",
+        "description": "Thomas Alva is a British chef, restaurateur, writer, and television personality. He has been awarded a total of 16 Michelin Stars, and is known for his fiery personality and no-nonsense approach to cooking. Ramsay began his culinary career at the age of 19, training with some of the world's top cheamsay in London. Ramsay has also written numerous cookbooks, hosted several television shows, and appeared as a judge on cooking competition programs such as MasterChef and Hell's Kitchen.",
+        "chef_photo": "https://images.pexels.com/photos/3298687/pexels-photo-3298687.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "like": 5000,
+        "treating": "Thomas Alva's signature dish is Beef Wellington, which is a filet of beef wrapped in puff pastry and served with mushroom duxelles and a red wine reduction. He is also known for his roasted scallops with pea puree and bacon vinaigrette.",
+        "recipe_details": [
+            {
+                "recipe_name": "Beef Wellington",
+                "ingredients": [
+                    "Filet of beef",
+                    "Puff pastry",
+                    "Mushroom duxelles",
+                    "Red wine"
+                ],
+                "instructions": [
+                    "Season and sear the beef",
+                    "Wrap in puff pastry with mushroom duxelles",
+                    "Bake until golden brown"
+                ],
+                "recipe_photo": "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            }
+           
+        ]
+    },
+    {
+        "id": 3,
+        "chef_name": "Jakson",
+        "experience": "20+ years",
+        "number":"11",
+        "description": "Jakson is a British chef, restaurateur, writer, and television personality. He has been awarded a total of 16 Michelin Stars, and is known for his fiery personality and no-nonsense approach to cooking. Ramsay began his culinary career at the age of 19, training with some of the world's top chefs in London and Paris. He later opened his own restaurants, including the three-Michelin-starred Restaurant Gordon Ramsay in London. Ramsay has also written numerous cookbooks, hosted several television shows, and appeared as a judge on cooking competition programs such as MasterChef and Hell's Kitchen.",
+        "chef_photo": "https://images.pexels.com/photos/1587830/pexels-photo-1587830.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "like": 15000,
+        "treating": "Jakson's signature dish is Beef Wellington, which is a filet of beef wrapped in puff pastry and served with mushroom duxelles and a red wine reduction. He is also known for his roasted scallops with pea puree and bacon vinaigrette.",
+        "recipe_details": [
+            {
+                "recipe_name": "Beef Wellington",
+                "ingredients": [
+                    "Filet of beef",
+                    "Puff pastry",
+                    "Mushroom duxelles",
+                    "Red wine"
+                ],
+                "instructions": [
+                    "Season and sear the beef",
+                    "Wrap in puff pastry with mushroom duxelles",
+                    "Bake until golden brown"
+                ],
+                "recipe_photo": "https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            }
+            
+        ]
+    },
+    {
+        "id": 4,
+        "chef_name": "Rook",
+        "experience": "20+ years",
+        "number":"20",
+        "description": "Rook is a British chef, restaurateur, writer, and television personality. He has been awarded a total of 16 Michelin Stars, and is known for his fiery personality and no-nonsense approach to cooking. Ramsay began his culinary career at the age of 19, training with some of the world's top chefs in London and Paris. He later opened his own restaurants, including the three-Michelin-starred Restaurant Gordon Ramsay in London. Ramsay has also written numerous cookbooks, hosted several television shows, and appeared as a judge on cooking competition programs such as MasterChef and Hell's Kitchen.",
+        "chef_photo": "https://images.pexels.com/photos/3351927/pexels-photo-3351927.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "like": 350,
+        "treating": "Rook's signature dish is Beef Wellington, which is a filet of beef wrapped in puff pastry and served with mushroom duxelles and a red wine reduction. He is also known for his roasted scallops with pea puree and bacon vinaigrette.",
+        "recipe_details": [
+            {
+                "recipe_name": "Beef Wellington",
+                "ingredients": [
+                    "Filet of beef",
+                    "Puff pastry",
+                    "Mushroom duxelles",
+                    "Red wine"
+                ],
+                "instructions": [
+                    "Season and sear the beef",
+                    "Wrap in puff pastry with mushroom duxelles",
+                    "Bake until golden brown"
+                ],
+                "recipe_photo": "https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            }
+            
+        ]
+    },
+    {
+        "id": 5,
+        "chef_name": "Albart",
+        "experience": "15+ years",
+        "number":"50",
+        "description": "Albart is a British chef, restaurateur, writer, and television personality. He has been awarded a total of 16 Michelin Stars, and is known for his fiery personality and no-nonsense approach to cooking. Ramsay began his culinary career at the age of 19, training with some of the world's top chefs in London and Paris. He later opened his own restaurants, including the three-Michelin-starred Restaurant Gordon Ramsay in London. Ramsay has also written numerous cookbooks, hosted several television shows, and appeared as a judge on cooking competition programs such as MasterChef and Hell's Kitchen.",
+        "chef_photo": "https://images.pexels.com/photos/3771120/pexels-photo-3771120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "like": 250,
+        "treating": "Albart's signature dish is Beef Wellington, which is a filet of beef wrapped in puff pastry and served with mushroom duxelles and a red wine reduction. He is also known for his roasted scallops with pea puree and bacon vinaigrette.",
+        "recipe_details": [
+            {
+                "recipe_name": "Beef Wellington",
+                "ingredients": [
+                    "Filet of beef",
+                    "Puff pastry",
+                    "Mushroom duxelles",
+                    "Red wine"
+                ],
+                "instructions": [
+                    "Season and sear the beef",
+                    "Wrap in puff pastry with mushroom duxelles",
+                    "Bake until golden brown"
+                ],
+                "recipe_photo": "https://images.pexels.com/photos/5807020/pexels-photo-5807020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            }
+          
+        ]
+    },
+    {
+        "id": 6,
+        "chef_name": "John shina",
+        "experience": "10+ years",
+        "number":"30",
+        "description": "John shina is a British chef, restaurateur, writer, and television personality. He has been awarded a total of 16 Michelin Stars, and is known for his fiery personality and no-nonsense approach to cooking. Ramsay began his culinary career at the age of 19, training with some of the world's top chefs in London and Paris. He later opened his own restaurants, including the three-Michelin-starred Restaurant Gordon Ramsay in London. Ramsay has also written numerous cookbooks, hosted several television shows, and appeared as a judge on cooking competition programs such as MasterChef and Hell's Kitchen.",
+        "chef_photo": "https://images.pexels.com/photos/35666/cooking-baby-only-kitchen.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "like": 150,
+        "treating": "John shina's signature dish is Beef Wellington, which is a filet of beef wrapped in puff pastry and served with mushroom duxelles and a red wine reduction. He is also known for his roasted scallops with pea puree and bacon vinaigrette.",
+        "recipe_details": [
+            {
+                "recipe_name": "Beef Wellington",
+                "ingredients": [
+                    "Filet of beef",
+                    "Puff pastry",
+                    "Mushroom duxelles",
+                    "Red wine"
+                ],
+                "instructions": [
+                    "Season and sear the beef",
+                    "Wrap in puff pastry with mushroom duxelles",
+                    "Bake until golden brown"
+                ],
+                "recipe_photo": "https://images.pexels.com/photos/718742/pexels-photo-718742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            }
+           
         ]
     }
+    
+   
 ]
