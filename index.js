@@ -14,6 +14,11 @@ app.get('/', (req,res)=>{
 app.get("/allData",(req,res)=> {
     res.send(allRecipies)
 })
+app.get("/allData/:id",(req,res)=> {
+    const id = req.params.id;
+    const item = allRecipies?.find((pd) => pd.id == id);
+    res.send({item})
+})
 
 app.listen(port, (req,res)=>{
     console.log(`server is running on ${port}`);
